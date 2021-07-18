@@ -11,11 +11,12 @@ test = pd.read_csv("test.csv")
 # Set our train data according to frames
 train = pd.DataFrame(df)
 df.head()
+
 df.drop(['PassengerId','Name','SibSp','Parch','Ticket','Cabin','Embarked'],axis='columns',inplace=True)
 df.head()
+
 inputs = df.drop('Survived',axis='columns')
 target = df.Survived
-#inputs.Sex = inputs.Sex.map({'male': 1, 'female': 2})
 
 dummies = pd.get_dummies(inputs.Sex)
 dummies.head(10)
@@ -33,6 +34,7 @@ inputs.head()
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(inputs,target,test_size=0.3)
 from sklearn.naive_bayes import MultinomialNB
+
 X_test1 = test.drop('PassengerId',axis='columns')
 X_test2 = test.PassengerId
 model = MultinomialNB()
@@ -43,10 +45,11 @@ test = pd.read_csv("test.csv")
 X_test1 = test.drop('PassengerId',axis='columns')
 X_test2 = test.PassengerId
 X_test[0:]
+
 #model.predict(X_test[0:])
 #model.predict_proba(X_test[:])
 predict_class = model.predict(X_test)
-submission=pd.DataFrame({"PassengerId": list(range(1,len(predict_class)+1)), "Survival": predict_class})
+submission=pd.DataFrame({"PassengerId": list(range(1,len(predict_class)+1)), "Survived": predict_class})
 submission.to_csv('submission.csv', index=False,header=True)
 from google.colab import files
 files.download('submission.csv')
