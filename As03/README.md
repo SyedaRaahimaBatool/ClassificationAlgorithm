@@ -3,4 +3,6 @@ Score On Code:
 ![SS1](https://user-images.githubusercontent.com/61589430/126049035-a4d23937-cb77-4e2a-b111-6441ff4ac3aa.JPG)
 
 Score On Kaggle:
-![SS02](https://user-images.githubusercontent.com/61589430/126049037-6eb57121-f702-4923-95da-364e3667f63f.JPG)
+
+![Submission_Screenshot](https://user-images.githubusercontent.com/66066742/126063906-f0fe8f04-65d7-458f-9d36-4f35db06cac1.jpg)
+
