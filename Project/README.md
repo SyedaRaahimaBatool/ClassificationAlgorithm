@@ -31,3 +31,6 @@
 
 ### MULTINOMIAL NAIVE BAYES MODEL ACCURACY SCREENSHOT ON CODE:
 ![Multinomial_accuracy](https://user-images.githubusercontent.com/49693169/126376027-3898dec6-a2d9-4086-b93a-0c7eeadcba74.JPG)
+
+# COMPLETE SUBMISSION SCREENSHOT ON KAGGLE:
+![CompleteSubmissions](https://user-images.githubusercontent.com/61589430/126376216-e71e654b-178e-4d38-b2a6-680676d8250a.JPG)
