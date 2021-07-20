@@ -13,13 +13,21 @@
 
 
 ## LC MODEL SCREENSHOT ON KAGGLE:
+![LC_SS](https://user-images.githubusercontent.com/49693169/126375868-ee00b2e3-d3d6-4dc7-8f85-5a9cd85f8381.JPG)
 
 ### LC MODEL ACCURACY SCREENSHOT ON CODE:
+![LC_accuracy](https://user-images.githubusercontent.com/49693169/126375902-c236e7e4-9406-4d94-af54-27d8d187922a.JPG)
+
 
 ## SVM MODEL SCREENSHOT ON KAGGLE:
+![SVM_SS](https://user-images.githubusercontent.com/49693169/126375933-e5c9da6b-691c-4e57-a8f5-bb83967ddd4c.JPG)
 
 ### SVM MODEL ACCURACY SCREENSHOT ON CODE:
+![SVM_accuracy](https://user-images.githubusercontent.com/49693169/126375957-f20a478d-8fab-41f5-9afd-712511b7463e.JPG)
+
 
 ## MULTINOMIAL NAIVE BAYES MODEL SCREENSHOT ON KAGGLE:
+![Multinomial_SS](https://user-images.githubusercontent.com/49693169/126376014-298a66bb-888d-4ff1-8c18-9baa39b15979.JPG)
 
 ### MULTINOMIAL NAIVE BAYES MODEL ACCURACY SCREENSHOT ON CODE:
+![Multinomial_accuracy](https://user-images.githubusercontent.com/49693169/126376027-3898dec6-a2d9-4086-b93a-0c7eeadcba74.JPG)
