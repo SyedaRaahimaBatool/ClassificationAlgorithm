@@ -1,7 +1,7 @@
 # Description: How we Achieved each Task?
 
 
-In this project, we implement four classifications techniques
+In this project, we implement three classifications techniques
 
 
  1.  Linear Classification 
