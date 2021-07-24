@@ -1,3 +1,32 @@
+# Description: How we Achieved each Task?
+
+
+In this project, we implement four classifications techniques
+
+
+ 1.  Multinomial Naïve Bayes
+ 2.  Linear Regression 
+ 3.  SVM 
+ 4.  KNN 
+
+In each technique, we are using 3 convolution 5x5,7x7,9x9 on two different filters.
+   1. We have 784 columns of pixels, it breaks into 28x28, then we create a new array of new dimensions/size (2D Array) and apply 5x5 convolution.
+   2. After the implementation of 5x5 convolution, new array will became in the shape of (0, 576) because this 5x5 convolution will implemented on 42000                 rows of train.csv
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## KNN MODEL SCREENSHOT ON KAGGLE:
 ![KNN_SS](https://user-images.githubusercontent.com/61589430/126374521-258e8ef6-bda6-479d-b87d-71f9a19073c7.JPG)
 
