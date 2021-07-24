@@ -16,39 +16,28 @@ In each technique, we are dropping some coluns of name wich are not useable, so 
 
 
 
-# CV Score of Each Six Techniques: #
+# CV Score of Each Three Techniques: #
 
 ## 1. KNN: ##
 
 1. In this model, it will find nearest neighbor on K-Value which is in the odd after get the sqrt on yTest (from CV).
-2. By using this model on 5x5, convolution with same filter we achieved 0.93 score.
-3. On 5x5 convolution, with different filter we achieved 0.94 score.
-4. On 7x7 convolution, with different filter we achieved 0.922.
-5. Now we applying 9x9 convolution, with same filter we achieve 0.879 score.
-6. On 9x9 convolution, with different filter we achieved 0.897 because with 9x9 convolution this will reduce further on 784 it is 81 so it will not maintain the best score.
+2. After the crossvalidation on train.csv and test.csv it separfates the test data upto 20% or 30% and train data upto 80% or 70%(we have changed it randomly).
+3. After the application of KNN model we achieved a score of 0.842.
 
 
 
 ## 4. SVM ##
 
 1. This model is different from other because it does not learn on the characteristics not like other models learn.
-2. By using this model, on 5x5 convolution with same filter we achieve 0.88 score.
-3. On 5x5 convolution, with different filter we achieve 0.87 score.
-4. Now applying 7x7 convolution with same filter we achieve 0.89 score.
-5. On 7x7 convolution, with different filter we achieved 0.87 score.
-6. Now applying 9x9 convolution with same filter we achieve 0.76 score.
-7. On 9x9 convolution, with different filter we achieve 0.77 score.
+2. After the crossvalidation on train.csv and test.csv it separfates the test data upto 20% or 30% and train data upto 80% or 70%(we have changed it randomly).
+3. After the application of SVM model we achieved a score of 0.78.
 
 
 ## 3. Linear Classification: ##
 
 1. This model used to minimize the sum of square between  the observed and target in the data set and the target predicted by the linear approximation.
-2. By using this model on 5x5, convolution with same filter we achieved 0.603 score.
-3. On 5x5 convolution, with different filter we achieved 0.604 score
-4. Now applying 7x7 convolution, with same filter we achieved 0.603 score.
-5. On 7x7 convolution with different filter, we achieved 0.588 score.
-6. Now applying 9x9 convolution, with same filter we achieved 0.5818 score.
-7. On 9x9 convolution, with different filter we achieved 0.5841.
+2. After the crossvalidation on train.csv and test.csv it separfates the test data upto 20% or 30% and train data upto 80% or 70%(we have changed it randomly).
+3. After the application of LC model we achieved a score of 0.80.
 
 
 
