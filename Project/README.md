@@ -4,14 +4,51 @@
 In this project, we implement four classifications techniques
 
 
- 1.  Multinomial Naïve Bayes
- 2.  Linear Regression 
- 3.  SVM 
- 4.  KNN 
+ 1.  Linear Classification 
+ 2.  SVM 
+ 3.  KNN 
 
-In each technique, we are using 3 convolution 5x5,7x7,9x9 on two different filters.
-   1. We have 784 columns of pixels, it breaks into 28x28, then we create a new array of new dimensions/size (2D Array) and apply 5x5 convolution.
-   2. After the implementation of 5x5 convolution, new array will became in the shape of (0, 576) because this 5x5 convolution will implemented on 42000                 rows of train.csv
+In each technique, we are dropping some coluns of name wich are not useable, so we used 3 different columns in each model.
+   1. Firstly we drop some columns from train.csv and test.csv same as we did in Assignment_03.
+   2. Then we apply crossvalidation or KFold technique by using 3 columns from train.csv and test.csv.
+   3. Finally we implement models and get accuracy and predicted values.
+
+
+
+
+# CV Score of Each Six Techniques: #
+
+## 1. KNN: ##
+
+1. In this model, it will find nearest neighbor on K-Value which is in the odd after get the sqrt on yTest (from CV).
+2. By using this model on 5x5, convolution with same filter we achieved 0.93 score.
+3. On 5x5 convolution, with different filter we achieved 0.94 score.
+4. On 7x7 convolution, with different filter we achieved 0.922.
+5. Now we applying 9x9 convolution, with same filter we achieve 0.879 score.
+6. On 9x9 convolution, with different filter we achieved 0.897 because with 9x9 convolution this will reduce further on 784 it is 81 so it will not maintain the best score.
+
+
+
+## 4. SVM ##
+
+1. This model is different from other because it does not learn on the characteristics not like other models learn.
+2. By using this model, on 5x5 convolution with same filter we achieve 0.88 score.
+3. On 5x5 convolution, with different filter we achieve 0.87 score.
+4. Now applying 7x7 convolution with same filter we achieve 0.89 score.
+5. On 7x7 convolution, with different filter we achieved 0.87 score.
+6. Now applying 9x9 convolution with same filter we achieve 0.76 score.
+7. On 9x9 convolution, with different filter we achieve 0.77 score.
+
+
+## 3. Linear Classification: ##
+
+1. This model used to minimize the sum of square between  the observed and target in the data set and the target predicted by the linear approximation.
+2. By using this model on 5x5, convolution with same filter we achieved 0.603 score.
+3. On 5x5 convolution, with different filter we achieved 0.604 score
+4. Now applying 7x7 convolution, with same filter we achieved 0.603 score.
+5. On 7x7 convolution with different filter, we achieved 0.588 score.
+6. Now applying 9x9 convolution, with same filter we achieved 0.5818 score.
+7. On 9x9 convolution, with different filter we achieved 0.5841.
 
 
 
