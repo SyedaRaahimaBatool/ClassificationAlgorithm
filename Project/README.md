@@ -26,7 +26,7 @@ In each technique, we are dropping some coluns of name wich are not useable, so 
 
 
 
-## 4. SVM ##
+## 2. SVM: ##
 
 1. This model is different from other because it does not learn on the characteristics not like other models learn.
 2. After the crossvalidation on train.csv and test.csv it separfates the test data upto 20% or 30% and train data upto 80% or 70%(we have changed it randomly).
@@ -36,14 +36,27 @@ In each technique, we are dropping some coluns of name wich are not useable, so 
 ## 3. Linear Classification: ##
 
 1. This model used to minimize the sum of square between  the observed and target in the data set and the target predicted by the linear approximation.
-2. After the crossvalidation on train.csv and test.csv it separfates the test data upto 20% or 30% and train data upto 80% or 70%(we have changed it randomly).
-3. After the application of LC model we achieved a score of 0.80.
+2. We are using Logistic Regression.
+3. After the crossvalidation on train.csv and test.csv it separfates the test data upto 20% or 30% and train data upto 80% or 70%(we have changed it randomly).
+4. After the application of LC model we achieved a score of 0.80.
 
 
 
 
 
+# Description: Important part of .py file: #
 
+
+### Convolution Part: ###
+
+1. In this part, we are applying 5x5,7x7,9x9 convolution to map on our 42000 data, It will help to predict and get the filtered image/label.
+2. Explaining about its working, Firstly, we can break our 784 columns into 28x28 and create 2D Array and iterate on array filter will push into it.
+
+
+### Models Part: ###
+
+1. We implement Three techniques and on these techniques, we are applying crossvalidation to separates training or testing data, to get the best/good score.
+2. But according to our views to work on this phase, we achieve best score on KNN.
 
 
 
