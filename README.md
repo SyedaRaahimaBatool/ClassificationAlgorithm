@@ -1,7 +1,7 @@
-# Topic: Artificial Intelligence 
+# Classification Algorithm in Artificial Intelligence 
 
 
-# Description: How we Achieved each Task?
+## Description:
 
 
 In this project, we implement three classifications techniques
